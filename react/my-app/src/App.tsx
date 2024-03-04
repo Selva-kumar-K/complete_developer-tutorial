@@ -1,4 +1,4 @@
-import { JsxElement } from "typescript"
+import TestFile from "./components/TestFile"
 
 function App() {
 
@@ -19,6 +19,7 @@ function App() {
   return(
     <>
     <GetWeatherData text="sunny"/>
+    <TestFile n="selva"/>
     </>
   )
 
